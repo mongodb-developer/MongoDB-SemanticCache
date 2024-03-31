@@ -40,8 +40,10 @@ set_llm_cache(MongoDBCache(
     database_name=DATABASE_NAME,
 ))
 ```
-MongoDBAtlasSemanticCache
-Semantic caching allows users to retrieve cached prompts based on semantic similarity between the user input and previously cached results. Under the hood, it blends MongoDBAtlas as both a cache and a vector store. The MongoDBAtlasSemanticCache inherits from MongoDBAtlasVectorSearch and needs an Atlas Vector Search Index defined to work. Please look at the usage example on how to set up the index.
+##MongoDBAtlasSemanticCache
+Semantic caching allows users to retrieve cached prompts based on semantic similarity between the user input and previously cached results. Under the hood, it blends MongoDBAtlas as both a cache and a vector store. 
+
+The MongoDBAtlasSemanticCache inherits from MongoDBAtlasVectorSearch and needs an Atlas Vector Search Index defined to work. Please look at the usage example on how to set up the index.
 
 To import this cache:
 ```
