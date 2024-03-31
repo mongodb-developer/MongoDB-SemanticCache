@@ -26,7 +26,7 @@ To use this cache with your LLMs:
 ```
 from langchain_core.globals import set_llm_cache
 ```
-# use any embedding provider...
+## use any embedding provider...
 ```
 from tests.integration_tests.vectorstores.fake_embeddings import FakeEmbeddings
 
