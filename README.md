@@ -15,7 +15,6 @@ See a usage example:
 
 ```
 from langchain_mongodb import MongoDBAtlasVectorSearch
-
 ```
 An abstraction to store a simple cache in MongoDB. This does not use Semantic Caching, nor does it require an index to be made on the collection before generation.
 
