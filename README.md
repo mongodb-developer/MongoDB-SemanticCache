@@ -1,4 +1,4 @@
-## MongoDB-SemanticCache
+## MongoDB-SemanticCache 🍃 🦜 ⛓️
 How to use MongoDBAtlasSemanticCache to save on LLM costs
 
 ## Installation and Setup
