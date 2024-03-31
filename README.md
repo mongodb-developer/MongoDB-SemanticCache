@@ -3,8 +3,6 @@ How to use MongoDBAtlasSemanticCache to save on LLM costs
 
 ## Installation and Setup
 
-See detailed configuration instructions.
-
 We need to install the `langchain-mongodb` Python package:
 
 pip install langchain-mongodb
